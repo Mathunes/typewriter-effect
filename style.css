@@ -1,8 +1,9 @@
 #container-title #insertion-point {
-    width: 4px;
+    width: 3gipx;
     height: 30px;
     background-color: #000000;
     margin: 0 5px;
+    display: block;
 }
 
 #container-title {
