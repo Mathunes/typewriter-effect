@@ -31,11 +31,11 @@ function deleteH1(phrase) {
 
 function typeH1(phrase = 0) {
 
-    if (phrase > 2) {
+    var titles = ['Lorem ipsum', 'is simply dummy text', 'of the printing and typesetting industry.'];
+
+    if (phrase >= titles.length) {
         phrase = 0;
     }
-
-    var titles = ['Lorem ipsum', 'is simply dummy text', 'of the printing and typesetting industry.'];
 
     var h1 = document.querySelector('h1');
 
