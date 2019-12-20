@@ -1,5 +1,3 @@
-
-
 function deleteH1(phrase) {
     
     var h1 = document.querySelector('h1').innerHTML;
@@ -72,8 +70,12 @@ function insertionPointEffect() {
             insertionPoint.style.display = 'none';
         }
 
-    }, 300);
+    }, 500);
 }
 
-typeH1();
-insertionPointEffect();
+function main() {
+    typeH1();
+    insertionPointEffect();
+}
+
+main();
