@@ -1,1 +1,17 @@
-g
+#container-title #insertion-point {
+    width: 4px;
+    height: 30px;
+    background-color: #000000;
+    margin: 0 5px;
+}
+
+#container-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#container-title h1 {
+    margin: 0;
+    padding: 0;
+}
