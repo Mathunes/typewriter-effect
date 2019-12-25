@@ -11,4 +11,17 @@
 
 #container-title h1::after {
     content: '|';
+    animation-name: insertion-point;
+    animation-iteration-count: infinite;
+    animation-duration: 0.6s;
+}
+
+@keyframes insertion-point {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
