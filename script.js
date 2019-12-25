@@ -61,8 +61,4 @@ function typeH1(phrase = 0) {
     
 }
 
-function main() {
-    typeH1();
-}
-
-main();
+typeH1();
