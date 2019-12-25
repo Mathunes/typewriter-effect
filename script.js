@@ -61,21 +61,8 @@ function typeH1(phrase = 0) {
     
 }
 
-function insertionPointEffect() {
-    setInterval(function() {
-        var insertionPoint = document.getElementById('insertion-point');
-        if (insertionPoint.style.display == 'none') {
-            insertionPoint.style.display = 'block';
-        } else {
-            insertionPoint.style.display = 'none';
-        }
-
-    }, 500);
-}
-
 function main() {
     typeH1();
-    insertionPointEffect();
 }
 
 main();
