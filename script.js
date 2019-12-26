@@ -1,14 +1,14 @@
 const deleteH1 = phrase => {
     
-    var h1 = document.querySelector('h1').innerHTML;
+    let h1 = document.querySelector('h1').innerHTML;
     
-    var lenghtTitle = h1.length;
+    let lenghtTitle = h1.length;
 
-    var newh1 = '';
+    let newh1 = '';
 
-    var interval = setInterval(function() {
+    const interval = setInterval(function() {
 
-        for (var i = 0; i < h1.length-1; i++) {
+        for (let i = 0; i < h1.length-1; i++) {
             newh1 += h1[i];
         }
 
@@ -31,20 +31,20 @@ const deleteH1 = phrase => {
 
 const typeH1 = (phrase = 0) => {
 
-    var titles = ['Lorem ipsum', 'is simply dummy text', 'of the printing and typesetting industry.'];
+    const titles = ['Lorem ipsum', 'is simply dummy text', 'of the printing and typesetting industry.'];
 
     if (phrase >= titles.length) {
         phrase = 0;
     }
 
-    var h1 = document.querySelector('h1');
+    let h1 = document.querySelector('h1');
 
-    var j = 0;
+    let j = 0;
 
-    var title = titles[phrase];
-    var lenghtTitle = title.length;
+    const title = titles[phrase];
+    const lenghtTitle = title.length;
 
-    var interval = setInterval(function() {
+    const interval = setInterval(function() {
 
         h1.innerHTML += title[j];
         
