@@ -1,4 +1,4 @@
-function deleteH1(phrase) {
+const deleteH1 = phrase => {
     
     var h1 = document.querySelector('h1').innerHTML;
     
@@ -29,7 +29,7 @@ function deleteH1(phrase) {
 
 }
 
-function typeH1(phrase = 0) {
+const typeH1 = (phrase = 0) => {
 
     var titles = ['Lorem ipsum', 'is simply dummy text', 'of the printing and typesetting industry.'];
 
