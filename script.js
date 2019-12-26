@@ -6,7 +6,7 @@ const deleteH1 = phrase => {
 
     let newh1 = '';
 
-    const interval = setInterval(function() {
+    const interval = setInterval(() => {
 
         for (let i = 0; i < h1.length-1; i++) {
             newh1 += h1[i];
@@ -26,7 +26,6 @@ const deleteH1 = phrase => {
         h1 = document.querySelector('h1').innerHTML;
 
     }, 25);
-
 }
 
 const typeH1 = (phrase = 0) => {
@@ -44,7 +43,7 @@ const typeH1 = (phrase = 0) => {
     const title = titles[phrase];
     const lenghtTitle = title.length;
 
-    const interval = setInterval(function() {
+    const interval = setInterval(() => {
 
         h1.innerHTML += title[j];
         
@@ -58,7 +57,6 @@ const typeH1 = (phrase = 0) => {
         }
 
     }, 50);
-    
 }
 
 typeH1();
